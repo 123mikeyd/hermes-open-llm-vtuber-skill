@@ -330,8 +330,9 @@ Enhance avatar reactions with:
 
 ## Resources
 
+- **This Skill**: [GitHub Repository](https://github.com/123mikeyd/hermes-open-llm-vtuber-skill)
 - [Open-LLM-VTuber Documentation](https://open-llm-vtuber.github.io/)
-- [GitHub Repository](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)
+- [Open-LLM-VTuber GitHub](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber)
 - [Live2D Models](https://www.live2d.com/en/)
 - [Hermes Agent Documentation](https://github.com/NousResearch/hermes-agent)
 
