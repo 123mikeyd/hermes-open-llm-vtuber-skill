@@ -1,7 +1,7 @@
 ---
 name: open-llm-vtuber
 description: Create an AI YouTuber companion using Open-LLM-VTuber with Hermes Agent as the backend. Features voice interaction, Live2D avatar animation, and real-time conversation capabilities.
-version: 1.0.0
+version: 1.1.0
 author: Hermes Agent
 tags: [vtuber, live2d, avatar, voice, tts, stt, ai-companion, youtuber, open-llm-vtuber]
 triggers:
@@ -288,6 +288,14 @@ Response style:
 - Use local models instead of API calls
 - Enable GPU acceleration
 - Optimize network settings
+
+**GitHub Token Authentication Failed**
+- Verify your GitHub personal access token has `repo` scope
+- Check token expiration date (tokens can expire)
+- Test token validity: `curl -H "Authorization: token YOUR_TOKEN" https://api.github.com/user`
+- If token is invalid, generate a new one at GitHub Settings > Developer settings > Personal access tokens
+- Alternative: Use SSH keys instead of HTTPS tokens for authentication
+- Fallback: Create a local archive (`tar -czvf skill.tar.gz skill-directory/`) for manual upload
 
 ### Performance Optimization
 
